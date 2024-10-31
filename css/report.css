@@ -1,0 +1,42 @@
+table.nativealerts_stats {
+    min-width: 400px;
+    width: 100%;
+  }
+  
+  table.nativealerts_stats tr th {
+    background: #0073aa;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  table.nativealerts_stats tr td {
+    padding: 5px;
+  }
+  
+  table.nativealerts_stats tr:nth-child(even) {
+    background: #e8e8e8;
+  }
+  
+  table.nativealerts_stats tfoot tr.totals td {
+    text-align: right;
+  }
+  
+  table.nativealerts_stats tr th[data-sort-direction] i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 8px;
+  }
+  
+  table.nativealerts_stats tr th[data-sort-direction="asc"] i  {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  table.nativealerts_stats tr th[data-sort-direction="desc"] i  {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
